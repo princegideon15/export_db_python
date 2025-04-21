@@ -1,0 +1,61 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor config files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+lib/
+lib64/
+
+# pip cache
+pip-wheel-metadata/
+*.whl
+
+# dotenv files
+.env
+.env.*
+
+# Coverage and test output
+.coverage
+htmlcov/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SQLite or other local databases
+*.sqlite3
+*.db
+
+# Secret files
+secrets.json
+config.json
